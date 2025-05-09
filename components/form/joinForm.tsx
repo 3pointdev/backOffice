@@ -199,7 +199,7 @@ export default function JoinForm() {
             name="email"
             placeholder="Enter your Email"
             required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-purple-500"
+            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-primary"
             onChange={handleChange}
             value={model.email}
           />
@@ -222,7 +222,7 @@ export default function JoinForm() {
             name="password"
             placeholder="Enter your password"
             required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-purple-500"
+            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-primary"
             onChange={handleChange}
             value={model.password}
           />
@@ -245,7 +245,7 @@ export default function JoinForm() {
             name="passwordCheck"
             placeholder="Enter your password one more time"
             required
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-purple-500"
+            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-primary"
             onChange={handleChange}
             value={model.passwordCheck}
             onKeyUp={onKeyUpEnter}
@@ -258,7 +258,7 @@ export default function JoinForm() {
         </div>
         <div className="relative">
           <button
-            className="w-full cursor-pointer bg-purple-500 text-white py-2 rounded-md hover:bg-purple-600 transition duration-200 font-semibold disabled:bg-gray-400 disabled:cursor-not-allowed"
+            className="w-full cursor-pointer bg-primary text-white py-2 rounded-md hover:bg-secondary transition duration-200 font-semibold disabled:bg-gray-400 disabled:cursor-not-allowed"
             onClick={handleRegister}
             disabled={isPending}
           >
@@ -273,13 +273,13 @@ export default function JoinForm() {
         <div className="mt-4 text-center flex flex-col gap-2">
           <div className="text-sm text-gray-600 flex gap-2 items-end justify-center">
             <p>Already have an account?</p>
-            <Link href="/sign/in" className="text-purple-600 hover:underline">
+            <Link href="/sign/in" className="text-secondary hover:underline">
               Sign In
             </Link>
           </div>
           <div className="text-sm text-gray-600 flex gap-2 items-end justify-center">
             <p>Having trouble signing up?</p>
-            <Link href="/contact" className="text-purple-600 hover:underline">
+            <Link href="/contact" className="text-secondary hover:underline">
               Contact Us
             </Link>
           </div>

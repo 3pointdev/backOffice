@@ -8,6 +8,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useState } from "react";
+import dayjs from "dayjs";
 
 interface AlarmsProps {
   list: Alarm[];
@@ -63,20 +64,25 @@ export default function Alarms({ list }: AlarmsProps) {
       </div>
 
       <ul className="w-full flex flex-col items-start justify-center">
-        {list.map((alarm) => (
-          <li
-            className="w-full h-10 hover:opacity-80 transition-transform duration-300 ease-in-out cursor-pointer"
-            key={`alarm_item_${alarm.id}`}
-          >
-            <Link
-              href={`/${alarm.type}/${alarm.id}`}
-              className="flex items-center justify-between w-full h-full"
+        {list.map((alarm) => {
+          const time = dayjs(alarm.timestamp).format(
+            "YYYY년 MM월 DD일 HH시 mm분"
+          );
+          return (
+            <li
+              className="w-full h-10 hover:opacity-80 transition-transform duration-300 ease-in-out cursor-pointer"
+              key={`alarm_item_${alarm.id}`}
             >
-              <p className="text-lg font-medium">{alarm.name}</p>
-              <p className="text-sm font-medium">{alarm.timestamp}</p>
-            </Link>
-          </li>
-        ))}
+              <Link
+                href={`/${alarm.type}/${alarm.id}`}
+                className="flex items-center justify-between w-full h-full"
+              >
+                <p className="text-lg font-medium">{alarm.name}</p>
+                <p className="text-sm font-medium">{time}</p>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
       <Link
         href={"/"}

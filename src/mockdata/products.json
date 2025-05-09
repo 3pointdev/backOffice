@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "스마트폰 A1",
+    "name": "스마트폰 A1",
     "price": 1284900,
     "discountPrice": 1156410,
     "discountRate": 10,
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "title": "노트북 X200",
+    "name": "노트북 X200",
     "price": 2499000,
     "discountPrice": 2249100,
     "discountRate": 10,
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "title": "블루투스 이어폰 Z3",
+    "name": "블루투스 이어폰 Z3",
     "price": 199000,
     "discountPrice": 179100,
     "discountRate": 10,
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "title": "스마트워치 W5",
+    "name": "스마트워치 W5",
     "price": 450000,
     "discountPrice": 405000,
     "discountRate": 10,
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "title": "태블릿 T9",
+    "name": "태블릿 T9",
     "price": 799000,
     "discountPrice": 719100,
     "discountRate": 10,
@@ -66,7 +66,7 @@
   },
   {
     "id": 6,
-    "title": "게이밍 마우스 G7",
+    "name": "게이밍 마우스 G7",
     "price": 89000,
     "discountPrice": 80100,
     "discountRate": 10,
@@ -79,7 +79,7 @@
   },
   {
     "id": 7,
-    "title": "무선 키보드 K4",
+    "name": "무선 키보드 K4",
     "price": 120000,
     "discountPrice": 108000,
     "discountRate": 10,
@@ -92,7 +92,7 @@
   },
   {
     "id": 8,
-    "title": "모니터 M300",
+    "name": "모니터 M300",
     "price": 350000,
     "discountPrice": 315000,
     "discountRate": 10,
@@ -105,7 +105,7 @@
   },
   {
     "id": 9,
-    "title": "외장 SSD S8",
+    "name": "외장 SSD S8",
     "price": 250000,
     "discountPrice": 225000,
     "discountRate": 10,
@@ -118,7 +118,7 @@
   },
   {
     "id": 10,
-    "title": "웹캠 C6",
+    "name": "웹캠 C6",
     "price": 150000,
     "discountPrice": 135000,
     "discountRate": 10,
@@ -131,7 +131,7 @@
   },
   {
     "id": 11,
-    "title": "스마트폰 A1",
+    "name": "스마트폰 A1",
     "price": 1284900,
     "discountPrice": 1156410,
     "discountRate": 10,
@@ -144,7 +144,7 @@
   },
   {
     "id": 12,
-    "title": "노트북 X200",
+    "name": "노트북 X200",
     "price": 2499000,
     "discountPrice": 2249100,
     "discountRate": 10,
@@ -157,7 +157,7 @@
   },
   {
     "id": 13,
-    "title": "블루투스 이어폰 Z3",
+    "name": "블루투스 이어폰 Z3",
     "price": 199000,
     "discountPrice": 179100,
     "discountRate": 10,
@@ -170,7 +170,7 @@
   },
   {
     "id": 14,
-    "title": "스마트워치 W5",
+    "name": "스마트워치 W5",
     "price": 450000,
     "discountPrice": 405000,
     "discountRate": 10,
@@ -183,7 +183,7 @@
   },
   {
     "id": 15,
-    "title": "태블릿 T9",
+    "name": "태블릿 T9",
     "price": 799000,
     "discountPrice": 719100,
     "discountRate": 10,
@@ -196,7 +196,7 @@
   },
   {
     "id": 16,
-    "title": "게이밍 마우스 G7",
+    "name": "게이밍 마우스 G7",
     "price": 89000,
     "discountPrice": 80100,
     "discountRate": 10,
@@ -209,7 +209,7 @@
   },
   {
     "id": 17,
-    "title": "무선 키보드 K4",
+    "name": "무선 키보드 K4",
     "price": 120000,
     "discountPrice": 108000,
     "discountRate": 10,
@@ -222,7 +222,7 @@
   },
   {
     "id": 18,
-    "title": "모니터 M300",
+    "name": "모니터 M300",
     "price": 350000,
     "discountPrice": 315000,
     "discountRate": 10,
@@ -235,7 +235,7 @@
   },
   {
     "id": 19,
-    "title": "외장 SSD S8",
+    "name": "외장 SSD S8",
     "price": 250000,
     "discountPrice": 225000,
     "discountRate": 10,
@@ -248,7 +248,7 @@
   },
   {
     "id": 20,
-    "title": "웹캠 C6",
+    "name": "웹캠 C6",
     "price": 150000,
     "discountPrice": 135000,
     "discountRate": 10,
@@ -261,7 +261,7 @@
   },
   {
     "id": 21,
-    "title": "스마트폰 A1",
+    "name": "스마트폰 A1",
     "price": 1284900,
     "discountPrice": 1156410,
     "discountRate": 10,
@@ -274,7 +274,7 @@
   },
   {
     "id": 22,
-    "title": "노트북 X200",
+    "name": "노트북 X200",
     "price": 2499000,
     "discountPrice": 2249100,
     "discountRate": 10,
@@ -287,7 +287,7 @@
   },
   {
     "id": 23,
-    "title": "블루투스 이어폰 Z3",
+    "name": "블루투스 이어폰 Z3",
     "price": 199000,
     "discountPrice": 179100,
     "discountRate": 10,
@@ -300,7 +300,7 @@
   },
   {
     "id": 24,
-    "title": "스마트워치 W5",
+    "name": "스마트워치 W5",
     "price": 450000,
     "discountPrice": 405000,
     "discountRate": 10,
@@ -313,7 +313,7 @@
   },
   {
     "id": 25,
-    "title": "태블릿 T9",
+    "name": "태블릿 T9",
     "price": 799000,
     "discountPrice": 719100,
     "discountRate": 10,
@@ -326,7 +326,7 @@
   },
   {
     "id": 26,
-    "title": "게이밍 마우스 G7",
+    "name": "게이밍 마우스 G7",
     "price": 89000,
     "discountPrice": 80100,
     "discountRate": 10,
@@ -339,7 +339,7 @@
   },
   {
     "id": 27,
-    "title": "무선 키보드 K4",
+    "name": "무선 키보드 K4",
     "price": 120000,
     "discountPrice": 108000,
     "discountRate": 10,
@@ -352,7 +352,7 @@
   },
   {
     "id": 28,
-    "title": "모니터 M300",
+    "name": "모니터 M300",
     "price": 350000,
     "discountPrice": 315000,
     "discountRate": 10,
@@ -365,7 +365,7 @@
   },
   {
     "id": 29,
-    "title": "외장 SSD S8",
+    "name": "외장 SSD S8",
     "price": 250000,
     "discountPrice": 225000,
     "discountRate": 10,
@@ -378,7 +378,7 @@
   },
   {
     "id": 30,
-    "title": "웹캠 C6",
+    "name": "웹캠 C6",
     "price": 150000,
     "discountPrice": 135000,
     "discountRate": 10,
@@ -391,7 +391,7 @@
   },
   {
     "id": 31,
-    "title": "스마트폰 A1",
+    "name": "스마트폰 A1",
     "price": 1284900,
     "discountPrice": 1156410,
     "discountRate": 10,
@@ -404,7 +404,7 @@
   },
   {
     "id": 32,
-    "title": "노트북 X200",
+    "name": "노트북 X200",
     "price": 2499000,
     "discountPrice": 2249100,
     "discountRate": 10,
@@ -417,7 +417,7 @@
   },
   {
     "id": 33,
-    "title": "블루투스 이어폰 Z3",
+    "name": "블루투스 이어폰 Z3",
     "price": 199000,
     "discountPrice": 179100,
     "discountRate": 10,
@@ -430,7 +430,7 @@
   },
   {
     "id": 34,
-    "title": "스마트워치 W5",
+    "name": "스마트워치 W5",
     "price": 450000,
     "discountPrice": 405000,
     "discountRate": 10,
@@ -443,7 +443,7 @@
   },
   {
     "id": 35,
-    "title": "태블릿 T9",
+    "name": "태블릿 T9",
     "price": 799000,
     "discountPrice": 719100,
     "discountRate": 10,
@@ -456,7 +456,7 @@
   },
   {
     "id": 36,
-    "title": "게이밍 마우스 G7",
+    "name": "게이밍 마우스 G7",
     "price": 89000,
     "discountPrice": 80100,
     "discountRate": 10,
@@ -469,7 +469,7 @@
   },
   {
     "id": 37,
-    "title": "무선 키보드 K4",
+    "name": "무선 키보드 K4",
     "price": 120000,
     "discountPrice": 108000,
     "discountRate": 10,
@@ -482,7 +482,7 @@
   },
   {
     "id": 38,
-    "title": "모니터 M300",
+    "name": "모니터 M300",
     "price": 350000,
     "discountPrice": 315000,
     "discountRate": 10,
@@ -495,7 +495,7 @@
   },
   {
     "id": 39,
-    "title": "외장 SSD S8",
+    "name": "외장 SSD S8",
     "price": 250000,
     "discountPrice": 225000,
     "discountRate": 10,
@@ -508,7 +508,7 @@
   },
   {
     "id": 40,
-    "title": "웹캠 C6",
+    "name": "웹캠 C6",
     "price": 150000,
     "discountPrice": 135000,
     "discountRate": 10,
@@ -521,7 +521,7 @@
   },
   {
     "id": 41,
-    "title": "스마트폰 A1",
+    "name": "스마트폰 A1",
     "price": 1284900,
     "discountPrice": 1156410,
     "discountRate": 10,
@@ -534,7 +534,7 @@
   },
   {
     "id": 42,
-    "title": "노트북 X200",
+    "name": "노트북 X200",
     "price": 2499000,
     "discountPrice": 2249100,
     "discountRate": 10,
@@ -547,7 +547,7 @@
   },
   {
     "id": 43,
-    "title": "블루투스 이어폰 Z3",
+    "name": "블루투스 이어폰 Z3",
     "price": 199000,
     "discountPrice": 179100,
     "discountRate": 10,
@@ -560,7 +560,7 @@
   },
   {
     "id": 44,
-    "title": "스마트워치 W5",
+    "name": "스마트워치 W5",
     "price": 450000,
     "discountPrice": 405000,
     "discountRate": 10,
@@ -573,7 +573,7 @@
   },
   {
     "id": 45,
-    "title": "태블릿 T9",
+    "name": "태블릿 T9",
     "price": 799000,
     "discountPrice": 719100,
     "discountRate": 10,
@@ -586,7 +586,7 @@
   },
   {
     "id": 46,
-    "title": "게이밍 마우스 G7",
+    "name": "게이밍 마우스 G7",
     "price": 89000,
     "discountPrice": 80100,
     "discountRate": 10,
@@ -599,7 +599,7 @@
   },
   {
     "id": 47,
-    "title": "무선 키보드 K4",
+    "name": "무선 키보드 K4",
     "price": 120000,
     "discountPrice": 108000,
     "discountRate": 10,
@@ -612,7 +612,7 @@
   },
   {
     "id": 48,
-    "title": "모니터 M300",
+    "name": "모니터 M300",
     "price": 350000,
     "discountPrice": 315000,
     "discountRate": 10,
@@ -625,7 +625,7 @@
   },
   {
     "id": 49,
-    "title": "외장 SSD S8",
+    "name": "외장 SSD S8",
     "price": 250000,
     "discountPrice": 225000,
     "discountRate": 10,
@@ -638,7 +638,7 @@
   },
   {
     "id": 50,
-    "title": "웹캠 C6",
+    "name": "웹캠 C6",
     "price": 150000,
     "discountPrice": 135000,
     "discountRate": 10,
@@ -651,7 +651,7 @@
   },
   {
     "id": 51,
-    "title": "스마트폰 A1",
+    "name": "스마트폰 A1",
     "price": 1284900,
     "discountPrice": 1156410,
     "discountRate": 10,
@@ -664,7 +664,7 @@
   },
   {
     "id": 52,
-    "title": "노트북 X200",
+    "name": "노트북 X200",
     "price": 2499000,
     "discountPrice": 2249100,
     "discountRate": 10,
@@ -677,7 +677,7 @@
   },
   {
     "id": 53,
-    "title": "블루투스 이어폰 Z3",
+    "name": "블루투스 이어폰 Z3",
     "price": 199000,
     "discountPrice": 179100,
     "discountRate": 10,
@@ -690,7 +690,7 @@
   },
   {
     "id": 54,
-    "title": "스마트워치 W5",
+    "name": "스마트워치 W5",
     "price": 450000,
     "discountPrice": 405000,
     "discountRate": 10,
@@ -703,7 +703,7 @@
   },
   {
     "id": 55,
-    "title": "태블릿 T9",
+    "name": "태블릿 T9",
     "price": 799000,
     "discountPrice": 719100,
     "discountRate": 10,
@@ -716,7 +716,7 @@
   },
   {
     "id": 56,
-    "title": "게이밍 마우스 G7",
+    "name": "게이밍 마우스 G7",
     "price": 89000,
     "discountPrice": 80100,
     "discountRate": 10,
@@ -729,7 +729,7 @@
   },
   {
     "id": 57,
-    "title": "무선 키보드 K4",
+    "name": "무선 키보드 K4",
     "price": 120000,
     "discountPrice": 108000,
     "discountRate": 10,
@@ -742,7 +742,7 @@
   },
   {
     "id": 58,
-    "title": "모니터 M300",
+    "name": "모니터 M300",
     "price": 350000,
     "discountPrice": 315000,
     "discountRate": 10,
@@ -755,7 +755,7 @@
   },
   {
     "id": 59,
-    "title": "외장 SSD S8",
+    "name": "외장 SSD S8",
     "price": 250000,
     "discountPrice": 225000,
     "discountRate": 10,
@@ -768,7 +768,7 @@
   },
   {
     "id": 60,
-    "title": "웹캠 C6",
+    "name": "웹캠 C6",
     "price": 150000,
     "discountPrice": 135000,
     "discountRate": 10,

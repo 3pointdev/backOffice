@@ -27,7 +27,7 @@ export default function IntroMenu() {
             >
               <p
                 className={`transition-all duration-200 ease-in-out relative will-change-auto ${
-                  isActive ? "border-b-2 border-purple-300 text-purple-500" : ""
+                  isActive ? "border-b-2 border-primary text-primary" : ""
                 }`}
               >
                 {menu.name}

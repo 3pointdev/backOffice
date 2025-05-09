@@ -20,7 +20,12 @@ interface FetchProductsParams {
   order?: "asc" | "desc";
 }
 
+// const mockProducts: ProductDto[] = mockData;
 const mockProducts: ProductDto[] = mockData;
+
+export const fetchNewProducts = async (): Promise<ProductDto[]> => {
+  return mockProducts.slice(0, 10);
+};
 
 export const fetchProducts = async (
   params: FetchProductsParams = {}
@@ -35,7 +40,7 @@ export const fetchProducts = async (
   let filteredProducts = mockProducts;
   if (query) {
     filteredProducts = mockProducts.filter((product) =>
-      product.title.toLowerCase().includes(query.toLowerCase())
+      product.name.toLowerCase().includes(query.toLowerCase())
     );
   }
 
@@ -74,5 +79,12 @@ export const useProducts = (params: FetchProductsParams) => {
   return useQuery({
     queryKey: ["products", params],
     queryFn: () => fetchProducts(params),
+  });
+};
+
+export const useNewProducts = () => {
+  return useQuery({
+    queryKey: ["newProducts"],
+    queryFn: () => fetchNewProducts(),
   });
 };

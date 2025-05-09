@@ -5,6 +5,8 @@ import { NextRequest, NextResponse } from "next/server";
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
+  if (pathname.startsWith("/images")) return NextResponse.next();
+
   // 즉시 렌더링 처리 URI
   const allowedPaths = ["/", "/sign/in", "/sign/up"];
   if (allowedPaths.includes(pathname)) {

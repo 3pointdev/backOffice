@@ -5,6 +5,8 @@
   --foreground: #171717;
   --card-background: #f9f9f9;
   --gray: #8c8c8c;
+  --primary: #a580f5;
+  --secondary: #7535ff;
 
   --font-gothic: "Gothic A1", sans-serif;
   --font-eczar: "Eczar", sans-serif;
@@ -100,6 +102,8 @@
   --color-foreground: var(--foreground);
   --color-card: var(--card-background);
   --color-gray: var(--gray);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
 
   --font-gothic: var(--font-gothic);
   --font-eczar: var(--font-eczar);

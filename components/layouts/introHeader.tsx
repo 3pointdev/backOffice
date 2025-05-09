@@ -10,13 +10,13 @@ export default async function IntroHeader() {
       <IntroMenu />
       <div className="w-40 h-full flex items-center gap-4 py-3">
         <button className="w-20 h-full flex items-center justify-center cursor-pointer hover:opacity-70 transition-opacity duration-100 ease-in-out delay-0">
-          <p className="text-purple-500 font-bold">CONTACT</p>
+          <p className="text-primary font-bold">CONTACT</p>
         </button>
         <Link
           href="/sign/in"
           className="w-20 h-full flex items-center justify-center cursor-pointer hover:opacity-70 transition-opacity duration-100 ease-in-out delay-0"
         >
-          <p className="text-purple-500 font-bold">SIGN IN</p>
+          <p className="text-primary font-bold">SIGN IN</p>
         </Link>
       </div>
     </header>
