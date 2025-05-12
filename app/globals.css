@@ -112,6 +112,8 @@
   --animate-fade-in-delay: fadeIn 1s ease-in-out forwards 1s;
   --animate-ring: ring 2s 0.7s ease-in-out infinite;
   --shadow-default: var(--drop-shadow);
+
+  --container-8xl: 1440px;
 }
 
 body {
@@ -131,4 +133,20 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   will-change: auto;
+}
+
+.swiper-pagination-bullet {
+  width: 40px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+  margin: 0 2px;
+}
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  content: none;
 }

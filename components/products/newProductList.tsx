@@ -8,7 +8,7 @@ import { useNewProducts } from "src/lib/queries/products";
 import "swiper/css";
 
 export default function NewProductList() {
-  const { data, isLoading, isError, error } = useNewProducts();
+  const { data = [], isLoading, isError, error } = useNewProducts();
 
   return (
     <div className="flex flex-col items-start justify-start w-full gap-2">
@@ -29,7 +29,7 @@ export default function NewProductList() {
             상품등록
           </p>
         </SwiperSlide>
-        {data &&
+        {data.length > 0 ? (
           data.map((item: ProductDto) => {
             return (
               <SwiperSlide
@@ -46,7 +46,12 @@ export default function NewProductList() {
                 </p>
               </SwiperSlide>
             );
-          })}
+          })
+        ) : (
+          <SwiperSlide className="shrink-0 !w-60 h-40 bg-card rounded-2xl !flex items-center justify-center">
+            <p className="text-gray-500">최근 등록 된 상품이 없습니다.</p>
+          </SwiperSlide>
+        )}
       </Swiper>
     </div>
   );

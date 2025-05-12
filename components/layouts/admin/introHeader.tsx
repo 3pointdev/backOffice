@@ -1,5 +1,5 @@
 import Link from "next/link";
-import IntroMenu from "./menus/introMenu";
+import IntroMenu from "components/layouts/menus/introMenu";
 
 export default async function IntroHeader() {
   return (

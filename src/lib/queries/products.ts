@@ -24,7 +24,8 @@ interface FetchProductsParams {
 const mockProducts: ProductDto[] = mockData;
 
 export const fetchNewProducts = async (): Promise<ProductDto[]> => {
-  return mockProducts.slice(0, 10);
+  return [];
+  // return mockProducts.slice(0, 10);
 };
 
 export const fetchProducts = async (

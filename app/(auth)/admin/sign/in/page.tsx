@@ -1,10 +1,10 @@
-import ClientAuthCover from "components/auth/client/clientAuthCover";
+import AdminAuthCover from "components/auth/admin/adminAuthCover";
 import LoginForm from "components/form/loginForm";
 
 export default function SignIn() {
   return (
     <div className="w-screen h-screen flex">
-      <ClientAuthCover />
+      <AdminAuthCover />
       <section className="w-xl shrink-0">
         <LoginForm />
       </section>

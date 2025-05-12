@@ -5,7 +5,7 @@ import {
   faRightFromBracket,
 } from "@fortawesome/free-solid-svg-icons";
 import LogoutButton from "components/buttons/logoutButton";
-import AdminMenu from "./menus/adminMenu";
+import AdminMenu from "components/layouts/menus/adminMenu";
 
 export default async function AdminHeader() {
   return (

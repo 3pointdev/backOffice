@@ -1,4 +1,6 @@
-export default function AuthCover() {
+import { adminSiteConfig } from "config/site.config";
+
+export default function AdminAuthCover() {
   return (
     <section className="w-full bg-primary relative flex flex-col items-center justify-start py-24">
       <img
@@ -32,8 +34,10 @@ export default function AuthCover() {
         className="w-62 absolute right-8 bottom-32 opacity-10 animate-spin-slow"
       />
       <div className="flex flex-col items-center justify-center gap-2 z-10">
-        <h1 className="font-eczar font-bold text-6xl">BackOffice</h1>
-        <p className="font-medium text-xl">Convenient point of sale system</p>
+        <h1 className="font-eczar font-bold text-6xl">
+          {adminSiteConfig.title}
+        </h1>
+        <p className="font-medium text-xl">{adminSiteConfig.description}</p>
       </div>
     </section>
   );

@@ -5,6 +5,7 @@ interface CommonImageProps {
   src: string;
   alt: string;
   className?: string;
+  imageClass?: string;
   width?: string;
   priority?: boolean;
 }
@@ -13,6 +14,7 @@ export default function LazyImage({
   src,
   alt,
   className = "",
+  imageClass = "",
   width = "100%",
   priority = false,
 }: CommonImageProps) {
@@ -42,7 +44,7 @@ export default function LazyImage({
         src={src}
         alt={alt}
         width={width}
-        className="w-full h-full"
+        className={`w-full h-full ${imageClass}`}
         loading={priority ? "eager" : "lazy"}
         srcSet={`${src}?w=320 320w, ${src}?w=640 640w, ${src}?w=1280 1280w`}
       />

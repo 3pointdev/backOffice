@@ -1,5 +1,5 @@
-import Footer from "components/layouts/footer";
-import IntroHeader from "components/layouts/introHeader";
+import AdminFooter from "components/layouts/admin/adminFooter";
+import IntroHeader from "components/layouts/admin/introHeader";
 import { ReactNode } from "react";
 
 export default function IntroLayout({
@@ -11,7 +11,7 @@ export default function IntroLayout({
     <section className="w-full h-full max-h-screen overflow-y-auto">
       <IntroHeader />
       {children}
-      <Footer />
+      <AdminFooter />
     </section>
   );
 }

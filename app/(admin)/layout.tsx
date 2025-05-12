@@ -1,7 +1,7 @@
 import "../globals.css";
 import { ReactNode } from "react";
-import AdminHeader from "components/layouts/adminHeader";
-import Footer from "components/layouts/footer";
+import AdminHeader from "components/layouts/admin/adminHeader";
+import AdminFooter from "components/layouts/admin/adminFooter";
 
 export default function ServiceLayout({
   children,
@@ -13,7 +13,7 @@ export default function ServiceLayout({
       <AdminHeader />
       <div className="w-full h-[calc(100vh-64px)] flex flex-col overflow-y-auto">
         {children}
-        <Footer />
+        <AdminFooter />
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-export default async function Footer() {
+export default async function AdminFooter() {
   return (
     <footer className="w-full h-16 flex items-center justify-between px-4 bg-card text-sm shrink-0">
       <div className="w-[348px] h-full flex flex-col items-start justify-center">
